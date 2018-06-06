@@ -1,9 +1,9 @@
 def fizzbuzz(int)
   
   if int % 3 == 0
-    puts "Playing tug-of-war."
-  elsif dog == "cuddly"
-    puts "Snuggling."
+    puts "Fizz"
+  elsif int % 5 == 0
+    puts "Buzz"
   else
     puts "Reading newspaper."
 
